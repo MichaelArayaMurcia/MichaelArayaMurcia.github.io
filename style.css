@@ -18,8 +18,9 @@ body{ margin: 0;}
 	background-color: rgb(0,147,178);
 	border: solid;
 	text-align: center;}
+
 /*---------------- Delays Animaciones ------------------------------------------------------*/
-	.delay-1{animation-delay: 0.1s}
+/*	.delay-1{animation-delay: 0.1s}
 	.delay-2{animation-delay: 0.2s}
 	.delay-3{animation-delay: 0.3s}
 	.delay-4{animation-delay: 0.4s}
@@ -27,7 +28,7 @@ body{ margin: 0;}
 	.delay-6{animation-delay: 0.6s}
 	.delay-7{animation-delay: 0.7s}
 	.delay-8{animation-delay: 0.8s}
-	.delay-9{animation-delay: 0.9s}
+	.delay-9{animation-delay: 0.9s}*/
 /*---------------- Footer ------------------------------------------------------------------*/
 	.context-dark, .bg-gray-dark, .bg-primary {color: rgba(255, 255, 255, 0.8);}
 	.footer-classic a, .footer-classic a:focus, .footer-classic a:active {color: #ffffff;}
