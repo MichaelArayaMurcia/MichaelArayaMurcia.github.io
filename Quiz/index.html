@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image" href="quiz.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Quiz</title>
+</head>
+<body>
+	<center>
+		<h1 id="Bienvenida"> Bienvenido al Quiz </h1>
+		<div class="Quiz">		
+			<form>
+				<!---- Pregunta 1 --->
+					<p>Para que un sistema de cómputo ocupado funcione eficientemente el administrador de dispositivos debe solucionar un problema como: </p><br>
+						<p id="correcta11"><input type="radio" name="pregunta1" id="p11"> Necesita saber que componentes están ocupados y cúales están libres.</p><br>
+						<p id="incorrecta12"><input type="radio" name="pregunta1" id="p12"> Depurar el código de los programas.</p><br>
+						<p id="incorrecta13"><input type="radio" name="pregunta1" id="p13"> Divide la memoria principal en bloques iguales de tamaño fijo.</p><br>
+						<p id="incorrecta14"><input type="radio" name="pregunta1" id="p14"> Divide en módulos los programas y los convierte en un segmento durante la compilación del programa.</p><br>
+					<div class="division"></div>
+				<!---- Pregunta 2 --->
+					<p>Como se sabe que ya termino una operación el administrador.</p><br>
+						<p id="incorrecta21"><input type="radio" name="pregunta2" id="p21"> Revisa el tiempo de busqueda.</p><br>
+						<p id ="correcta22"><input type="radio" name="pregunta2" id="p22"> Usa una bandera de hardware que debe probar el CPU.</p><br>
+						<p id="incorrecta23"><input type="radio" name="pregunta2" id="p23"> Revisa el tiempo de transferencia.</p><br>
+						<p id="incorrecta24"><input type="radio" name="pregunta2" id="p24"> Usa la dirección física del dispositivo.</p><br>
+					<div class="division"></div>
+				<!---- Pregunta 3 --->
+					<p>Que es el DMA.</p><br>
+						<p id="incorrecta31"><input type="radio" name="pregunta3" id="p31"> Una enfermedad.</p><br>
+						<p id="incorrecta32"><input type="radio" name="pregunta3" id="p32"> Un dispositivo de almacenamiento externo.</p><br>
+						<p id ="correcta33"><input type="radio" name="pregunta3" id="p33"> Es una tecnica que permite el acceso directo a la memoria principal.</p><br>
+						<p id="incorrecta34"><input type="radio" name="pregunta3" id="p34"> Un disco de memoria accesible.</p><br>
+					<div class="division"></div>
+				<!---- Pregunta 4 --->
+					<p>Cual es otro nombre para el buffer.</p><br>
+						<p id="incorrecta41"><input type="radio" name="pregunta4" id="p41"> Memoria virtual.</p><br>
+						<p id="incorrecta42"><input type="radio" name="pregunta4" id="p42"> Memoria inicial.</p><br>
+						<p id="incorrecta43"><input type="radio" name="pregunta4" id="p43"> Memoria de ciclo.</p><br>
+						<p id ="correcta44"><input type="radio" name="pregunta4" id="p44"> Memoria intermedia.</p><br>
+					<div class="division"></div>
+				<!---- Pregunta 5 --->
+					<p>Para que se utilizan los buffer</p><br>
+						<p id="correcta55"><input type="radio" name="pregunta5" id="p55"> Se utilizan mucho para sincronizar mejor el movimiento de datos entre los dispositivos de entrada/salida relativamente lentos y un CPU muy rápido.</p><br>
+						<p id="incorrecta52"><input type="radio" name="pregunta5" id="p52"> Se utilizan para ejecutar programas .</p><br>
+						<p id="incorrecta53"><input type="radio" name="pregunta5" id="p53"> Divide la memoria principal en bloques iguales de tamaño fijo.</p><br>
+						<p id="incorrecta54"><input type="radio" name="pregunta5" id="p54"> Conectan los dispositivos a la red.</p><br>
+					<div class="division"></div>
+				<!---- Pregunta 6 --->
+					<p>En donde se encuentra la bandera de hardware.</p>
+						<p id="incorrecta61"><input type="radio" name="pregunta6" id="p61"> En el Basic Input Output System.</p><br>
+						<p id ="correcta66"><input type="radio" name="pregunta6" id="p66"> En el Channel Status World.</p><br>
+						<p id="incorrecta63"><input type="radio" name="pregunta6" id="p63"> En el Central Processing Unit.</p><br>
+						<p id="incorrecta64"><input type="radio" name="pregunta6" id="p64"> En el Power On Self Test.</p><br>
+					<div class="division"></div>
+				<!---- Pregunta 7 --->
+					<p>Para que un sistema de cómputo ocupado funcione eficientemente el administrador de dispositivos debe solucionar un problema como: </p>
+						<p id="incorrecta71"><input type="radio" name="pregunta7" id="p71"> Que la computadora este lenta.</p>
+						<p id="incorrecta72"><input type="radio" name="pregunta7" id="p72"> Que la computadora tenga un virus.</p>
+						<p id ="correcta77"><input type="radio" name="pregunta7" id="p77"> Debe aceptar la disparidad de velocidades entre el CPU y los dispositivos de entrada/salida.</p>
+					<div class="division"></div>
+				<!---- Pregunta 8 --->
+					<p>Como hace el administrador de dispositivos para saber que componentes están ocupados y cuáles están libres.</p>
+						<p id="incorrecta81"><input type="radio" name="pregunta8" id="p81"> Revisa las particiones activas.</p>
+						<p id="incorrecta82"><input type="radio" name="pregunta8" id="p82"> Estructurando la jerarquia del Sistema Operativo.</p>
+						<p id ="correcta88"><input type="radio" name="pregunta8" id="p88"> Estructurando la interacción entre unidades.</p>				
+					<p><input type="button" value=" R E S U L T A D O " onclick="resultado()"/></p>
+			</form>
+		</div>
+	</center>
+</body>
+<script type="text/javascript" src="Quiz.js"></script>
+</html>

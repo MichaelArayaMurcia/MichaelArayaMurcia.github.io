@@ -1,0 +1,100 @@
+
+body {
+    background:#FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;       }
+
+header {
+    background: rgba(204, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid rgba(204, 0, 0, 1);}
+
+header h1{ 
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    padding: 0;
+    margin: 10px 0;}
+
+h3{ 
+    text-align: center;
+    font-size: 20px;
+    color: #08B}
+
+section {
+    width: 90%;
+    height:auto;
+    padding:10px;
+    margin: 90px auto 0 auto;}
+
+section:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;}
+
+section h1{ 
+    text-align: center;
+    font-size: 35px;
+    color: #FFF;}
+
+p { color: #000;}
+
+p.note {
+    color: #FFF;
+    font-size:14px;
+    text-align: center;}
+
+textarea{
+    display:block;
+    width:500px;
+    height:200px}
+
+a:link, a:visited{
+    color: #FFF;
+    text-decoration: none;}
+
+ span {
+                display:block;
+                font-size:25px;
+                color:#FFF;
+                text-align:center;}
+/*
+ * propiedades de las cajas (arrastrables)
+ */
+div[id ^='caja'] {
+    width:330px;
+    height:auto;
+    background:rgba(204, 0, 0, 0.8);
+    border: 3px solid rgba(204, 0, 0, 1);
+    /*margin:5px auto;*/
+    padding:5px;
+    color:#FFF;}
+div[id ^='caja']:after {content:"  Fuera del contenedor"}
+/*
+ * propiedades que van a tomar el elemento arrastrable luego de que  este se suelte dentro de su contenedor
+ */
+div[id ^='contenedor'] div[id ^='caja'] {   
+    background:rgba(0,178,255,0.8);
+    border: 3px solid rgba(0,178,255, 1);
+    float:right;}
+div[id ^='contenedor'] div[id ^='caja'] span {color:#FFF;}
+div[id ^='contenedor'] div[id ^='caja']:after {content:"  Dentro del contenedor  "}
+/*
+ * propiedades del contenedor
+ */
+div[id ^='contenedor'] {
+    width:350px;
+    height:200px;
+    background:rgba(38,104,127,0.8);
+    border: 3px solid rgba(38,104,127, 1);
+    /*margin:5px auto;*/
+    padding:5px;}
+
+#contenedor {display: inline-block;}

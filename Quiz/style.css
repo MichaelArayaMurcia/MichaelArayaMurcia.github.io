@@ -1,0 +1,23 @@
+.Quiz {
+	background-color: rgb(20,135,255);
+	height: 100%;
+	width: 90%;
+	display: inline-block;
+}
+body {
+	background-color: rgb(18,232,168);
+}
+
+p {
+	width: 70%;
+	height: 30px;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.division {
+	width: 100%;
+	background-color: orange;
+	height: 20px;
+}
+/*-------------------------------------*/

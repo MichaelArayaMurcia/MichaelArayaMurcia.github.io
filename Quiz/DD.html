@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>El Drag and Drop</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <header>
+            <h1>El Drag and Drop</h1>
+        </header>
+        <section id="cajas">
+            <center>
+            <!-- elementos arrastrables -->
+                <div id="contenedor" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"><span>A</span>
+                    <div id="caja1" draggable="true" ondragstart="dragstart(this, event)"> <span>Caja 1</span></div>
+                    <div id="caja2" draggable="true" ondragstart="dragstart(this, event)"> <span>Caja 2</span></div>
+                </div>
+            <!-- contenedor -------------->
+                <div id="contenedor" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> <span>B</span>
+                </div>
+            <!-- resultado --------------->
+            <p><input type="button" value=" RESULTADO " onclick="DD()"/></p>
+            <h1 id="ResultadoDD"> </h1>
+            </center>
+        </section>
+
+    </body>
+    <script type="text/javascript" src="Quiz.js"></script>
+</html>
+
