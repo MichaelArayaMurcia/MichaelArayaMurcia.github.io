@@ -188,7 +188,7 @@
 //----------- resultado ----------------------
 	nota=p1+p2+p3+p4+p5+p6+p7+p8;
 	alert(" Nota: " + nota + " de 8" );
-	document.getElementById("Bienvenida").innerHTML = "Bienvenido al Quiz conseguiste: " + nota + " de 8";
+	document.getElementById("Bienvenida").innerHTML = "Bienvenido al Quiz conseguiste: " + nota + " de 4";
 	}
 //------------- Drag and Drop ----------------
 	function dragstart(caja, evento) {
